@@ -1,0 +1,18 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A simple personal website with a glistening stars effect",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "postcss styles.css -o output.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^2.2.16",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6"
+  },
+  "keywords": ["personal", "website", "tailwindcss"],
+  "author": "e2b",
+  "license": "ISC"
+}
