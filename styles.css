@@ -1,28 +1,31 @@
-/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 body {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-#header {
-    padding: 20px;
-    text-align: center;
+    @apply bg-black text-white;
 }
 
 #main-content {
-    margin: 20px;
+    @apply text-center mt-20;
 }
 
-#footer {
-    padding: 20px;
-    text-align: center;
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-/* Responsive design */
-@media screen and (max-width: 600px) {
-    #header, #main-content, #footer {
-        padding: 10px;
-        margin: 10px;
-    }
+.star {
+    @apply bg-white;
+}
+
+.text-big {
+    @apply text-5xl font-bold;
+}
+
+.text-small {
+    @apply text-xl;
 }
